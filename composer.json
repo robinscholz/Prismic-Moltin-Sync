@@ -1,0 +1,13 @@
+{
+  "name": "PHP Quickstart",
+  "version": "1.0",
+  "require": {
+    "slim/slim": "3.*",
+    "prismic/php-sdk": "4.0.0-beta",
+    "moltin/php-sdk" : "^2.0.0"
+    },
+  "require-dev": {
+    "there4/slim-test-helpers": "dev-master",
+    "phpunit/phpunit": "4.*"
+  }
+}
