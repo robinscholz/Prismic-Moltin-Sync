@@ -26,7 +26,7 @@ define('MOLTIN_SECRET', 'moltin_client_secret');
 /*
  * Your site metadata
  */
-define('SITE_TITLE', 'PrismicMoltinSync');
+define('SITE_TITLE', '');
 define('SITE_DESCRIPTION', '');
 /*
  * Set to true to display error details
