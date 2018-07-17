@@ -1,6 +1,6 @@
 # 🌪 Prismic Moltin Sync
 
-PHP helper to sync Prismic data (shop products) to Moltin
+PHP helper to sync Prismic data (shop products) to Moltin.
 
 ## Setup
 
@@ -9,7 +9,7 @@ PHP helper to sync Prismic data (shop products) to Moltin
 $ composer install
 ```
 
-2. Launch local server (localhost:8000)
+2. Launch local server (localhost:8000):
 ```
 $ ./serve.sh
 ``
