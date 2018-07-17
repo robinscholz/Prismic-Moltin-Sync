@@ -34,7 +34,7 @@ define('SITE_DESCRIPTION', '');
 define('DISPLAY_ERROR_DETAILS', true);
 ```
 
-3. Launch local server (localhost:8000):
+3. Server app on `localhost:8000`:
 ```
 $ ./serve.sh
 ```
