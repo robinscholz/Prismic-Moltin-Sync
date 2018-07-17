@@ -4,7 +4,7 @@ PHP helper to sync Prismic data (shop products) to Moltin.
 
 ## Setup
 
-1. Install dependencies with composer:
+1. Install dependencies with composer
 ```
 $ composer install
 ```
