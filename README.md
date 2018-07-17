@@ -12,4 +12,4 @@ $ composer install
 2. Launch local server (localhost:8000):
 ```
 $ ./serve.sh
-``
+```
