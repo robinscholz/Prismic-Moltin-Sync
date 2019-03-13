@@ -66,7 +66,7 @@ if($requestType == 'POST' && $decoded->secret == $prismicSecret) {
   $inventory = flattenOneDimArray($inventory);
 
   // Lil helper
-  // echo "<pre>"; 
+  echo "<pre>"; 
 
   // Prismic: Create Moltin Products
   foreach($inventory as $article) {
@@ -113,6 +113,8 @@ if($requestType == 'POST' && $decoded->secret == $prismicSecret) {
             // $deleteProductResponse = $moltin->products->delete($product->id);
           }
         } catch(Exception $e) {
+          // Lil helper for debugging
+          // var_dump($article);
           echo 'An exception occurred calling the moltin API:';
           var_dump($e);
           exit;
